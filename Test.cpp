@@ -26,7 +26,7 @@ TEST_CASE("Constructor takingt vector and matrix"){
     CHECK_NOTHROW(Matrix mat5(vect3,2,4));
     CHECK_NOTHROW(Matrix mat6(vect4,2,2));
 
-}
+} 
 
 TEST_CASE("Constructors with illegal arguments"){
 
